@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name PSU-rescue)(type Legacy)(uri ${KIPRJMOD}/PSU-rescue.lib)(options "")(descr ""))
+  (lib (name erw)(type Legacy)(uri ${KIPRJMOD}/erw.lib)(options "")(descr ""))
+)
