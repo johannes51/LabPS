@@ -1,5 +1,3 @@
 (sym_lib_table
-  (lib (name Board)(type Legacy)(uri /home/jo/Downloads/CloudAtNas/Arbeitsverzeichnis/LabPS/KiCad/Board/Board.lib)(options "")(descr ""))
-  (lib (name linear-technology)(type Legacy)(uri /home/jo/Downloads/CloudAtNas/Arbeitsverzeichnis/LabPS/KiCad/Board/linear-technology.lib)(options "")(descr ""))
-  (lib (name Board-rescue)(type Legacy)(uri ${KIPRJMOD}/Board-rescue.lib)(options "")(descr ""))
+  (lib (name Board)(type Legacy)(uri ${KIPRJMOD}/Board.lib)(options "")(descr ""))
 )

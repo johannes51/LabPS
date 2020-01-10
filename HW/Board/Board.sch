@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:Board-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -26,6 +25,7 @@ F5 "MOSI" I R 7900 1500 50
 F6 "MISO" I R 7900 1600 50 
 F7 "CLK" I R 7900 1700 50 
 F8 "DAC_CS" I R 7900 1350 50 
+F9 "RELAIS" I L 6850 1700 50 
 $EndSheet
 Wire Wire Line
 	6850 1400 6750 1400
@@ -57,4 +57,7 @@ F 3 "~" H 8350 1550 50  0001 C CNN
 	1    8350 1550
 	1    0    0    -1  
 $EndComp
+NoConn ~ 6750 1700
+Wire Wire Line
+	6750 1700 6850 1700
 $EndSCHEMATC
