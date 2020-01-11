@@ -91,7 +91,7 @@ AR Path="/5C1FCF33/5E50FB24" Ref="D?"  Part="1"
 AR Path="/5E509EE3/5E50FB24" Ref="D2"  Part="1" 
 F 0 "D2" V 3954 1679 50  0000 L CNN
 F 1 "D_Schottky" V 4045 1679 50  0000 L CNN
-F 2 "Diode_THT:D_5KP_P12.70mm_Horizontal" H 4000 1600 50  0001 C CNN
+F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 4000 1600 50  0001 C CNN
 F 3 "~" H 4000 1600 50  0001 C CNN
 	1    4000 1600
 	0    1    1    0   
