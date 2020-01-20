@@ -479,22 +479,22 @@ Wire Wire Line
 	3700 4150 4150 4150
 Wire Wire Line
 	3700 4250 4150 4250
-Text Label 2650 5300 0    50   ~ 0
+Text Label 2650 5450 0    50   ~ 0
 MISO
-Text Label 2650 5400 0    50   ~ 0
+Text Label 2650 5550 0    50   ~ 0
 MOSI
-Text Label 2650 5500 0    50   ~ 0
+Text Label 2650 5700 0    50   ~ 0
 CLK
-Text Label 2650 5050 0    50   ~ 0
+Text Label 4900 5700 2    50   ~ 0
 ADC_CS
-Text Label 2650 5150 0    50   ~ 0
+Text Label 2650 5300 0    50   ~ 0
 DAC_CS
-Text Label 2650 5650 0    50   ~ 0
+Text Label 2650 5800 0    50   ~ 0
 SCL
-Text Label 2650 5750 0    50   ~ 0
+Text Label 2650 5200 2    50   ~ 0
 SDA
 Wire Wire Line
-	2650 5750 3350 5750
+	2650 5800 3350 5800
 $Comp
 L Relay:FINDER-40.31 K1
 U 1 1 5E1D7C03
@@ -551,7 +551,7 @@ Wire Notes Line
 Wire Notes Line
 	5000 5850 2550 5850
 Wire Notes Line
-	2550 5850 2550 4650
+	2550 5900 2550 4700
 Wire Wire Line
 	5450 3700 5800 3700
 Text Label 5800 3700 2    50   ~ 0
@@ -582,7 +582,7 @@ Text Label 5800 3800 2    50   ~ 0
 CH2
 Text Label 2650 4900 0    50   ~ 0
 ENABLE_IN
-Text Label 4900 4900 2    50   ~ 0
+Text Label 2650 5000 0    50   ~ 0
 ENABLE_OUT
 Wire Wire Line
 	10800 1400 10900 1400
@@ -657,17 +657,6 @@ F 3 "http://gfinder.findernet.com/assets/Series/353/S40EN.pdf" H 10500 1500 50  
 	1    10500 1500
 	0    1    -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x08_Counter_Clockwise J4
-U 1 1 5E247EDB
-P 3700 5250
-F 0 "J4" H 3750 5767 50  0000 C CNN
-F 1 "Conn_02x08_Counter_Clockwise" H 3750 5676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3700 5250 50  0001 C CNN
-F 3 "~" H 3700 5250 50  0001 C CNN
-	1    3700 5250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3350 4950 3500 4950
 Wire Wire Line
@@ -675,19 +664,17 @@ Wire Wire Line
 Wire Wire Line
 	2650 5300 3150 5300
 Wire Wire Line
-	2650 5400 3200 5400
+	2650 5450 3200 5450
 Wire Wire Line
-	2650 5500 3250 5500
-Wire Wire Line
-	3300 5650 3300 5550
+	3300 5700 3300 5550
 Wire Wire Line
 	3300 5550 3500 5550
 Wire Wire Line
-	2650 5650 3300 5650
+	2650 5700 3300 5700
 Wire Wire Line
-	2650 5050 3500 5050
+	3100 5050 3500 5050
 Wire Wire Line
-	2650 5150 3500 5150
+	3150 5150 3500 5150
 Wire Wire Line
 	3150 5300 3150 5250
 Wire Wire Line
@@ -695,51 +682,27 @@ Wire Wire Line
 Wire Wire Line
 	3350 4900 3350 4950
 Wire Wire Line
-	3200 5400 3200 5350
+	3200 5450 3200 5350
 Wire Wire Line
 	3200 5350 3500 5350
 Wire Wire Line
-	3250 5450 3250 5500
-Wire Wire Line
-	3250 5450 3500 5450
-Wire Wire Line
-	3350 5750 3350 5650
+	3350 5800 3350 5650
 Wire Wire Line
 	3350 5650 3500 5650
-Wire Wire Line
-	4250 4900 4900 4900
-Wire Wire Line
-	4250 4900 4250 4950
-Wire Wire Line
-	4250 4950 4000 4950
-Text Label 4900 5050 2    50   ~ 0
+Text Label 4900 4950 2    50   ~ 0
 CH1
-Wire Wire Line
-	4000 5050 4900 5050
-Text Label 4900 5150 2    50   ~ 0
+Text Label 4900 5050 2    50   ~ 0
 CH2
-Wire Wire Line
-	4000 5150 4900 5150
-Text Label 4900 5250 2    50   ~ 0
+Text Label 4900 5150 2    50   ~ 0
 CH3
-Wire Wire Line
-	4000 5250 4900 5250
-Text Label 4900 5350 2    50   ~ 0
+Text Label 4900 5250 2    50   ~ 0
 CH4
-Wire Wire Line
-	4000 5350 4900 5350
-Text Label 4900 5450 2    50   ~ 0
+Text Label 4900 5350 2    50   ~ 0
 CH5
-Wire Wire Line
-	4000 5450 4900 5450
-Text Label 4900 5550 2    50   ~ 0
+Text Label 4900 5450 2    50   ~ 0
 CH6
-Wire Wire Line
-	4000 5550 4900 5550
-Text Label 4900 5650 2    50   ~ 0
+Text Label 4900 5550 2    50   ~ 0
 CH7
-Wire Wire Line
-	4000 5650 4900 5650
 Wire Wire Line
 	9550 2000 9650 2000
 $Comp
@@ -753,4 +716,49 @@ F 3 "" H 9550 2000 50  0001 C CNN
 	1    9550 2000
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3150 5150 3150 5200
+Wire Wire Line
+	3150 5200 2650 5200
+Wire Wire Line
+	3100 5050 3100 5000
+Wire Wire Line
+	3100 5000 2650 5000
+Wire Wire Line
+	4000 4950 4900 4950
+Wire Wire Line
+	4000 5550 4900 5550
+Wire Wire Line
+	4000 5450 4900 5450
+Wire Wire Line
+	4000 5350 4900 5350
+Wire Wire Line
+	4000 5250 4900 5250
+Wire Wire Line
+	4000 5150 4900 5150
+Wire Wire Line
+	4000 5050 4900 5050
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J4
+U 1 1 5E247EDB
+P 3700 5250
+F 0 "J4" H 3750 5767 50  0000 C CNN
+F 1 "Conn_02x08_Counter_Clockwise" H 3750 5676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3700 5250 50  0001 C CNN
+F 3 "~" H 3700 5250 50  0001 C CNN
+	1    3700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 5700 4400 5700
+Wire Wire Line
+	4400 5700 4400 5650
+Wire Wire Line
+	4400 5650 4000 5650
+Wire Wire Line
+	3250 5450 3500 5450
+Wire Wire Line
+	3250 5450 3250 5550
+Wire Wire Line
+	3250 5550 2650 5550
 $EndSCHEMATC
