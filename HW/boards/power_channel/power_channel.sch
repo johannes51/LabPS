@@ -21,7 +21,7 @@ AR Path="/5E1D7C09" Ref="R3"  Part="1"
 AR Path="/5C1FCF33/5E1D7C09" Ref="R?"  Part="1" 
 F 0 "R3" V 5843 1350 50  0000 C CNN
 F 1 "0.1R" V 5934 1350 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5980 1350 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal" V 5980 1350 50  0001 C CNN
 F 3 "~" H 6050 1350 50  0001 C CNN
 	1    6050 1350
 	0    1    1    0   
